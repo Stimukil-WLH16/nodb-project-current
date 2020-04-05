@@ -31,16 +31,16 @@ class Form extends Component{
             <form onSubmit={this.handleAdd} className="Form">
                 <input
                 name="title"
-                placeholer="Title"
-                onChange={e => this.handleChange(e)}/>
+                placeholder="Title"
+                onChange={e => this.handleChange(e)} />
                 <input
                 name="author"
                 placeholder="Author"
-                onChange={e => this.handleChange(e)} />
-                <input
-                name="bookImg"
-                placeholder="Cover"
                 onChange={e => this.handleChange(e)}/>
+                <input
+                name="cover"
+                placeholder="Cover Image"
+                onChange={e => this.handleChange(e)}/> 
 
                 <button type="submit">Add Book</button>
             </form>
