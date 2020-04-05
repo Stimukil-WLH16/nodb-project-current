@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import books from '../data/books.json'
+import books from '../data.json'
 import ListItem from './ListItem'
 import Form from './Form'
 

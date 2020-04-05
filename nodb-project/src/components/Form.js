@@ -23,7 +23,7 @@ class Form extends Component{
     handleAdd(e){
         e.preventDefault()
         const {title, author, bookImg} = this.state
-        this.props.addBook(title, year, bookImg)
+        this.props.addBook(title, author, bookImg)
     }
 
     render(){
