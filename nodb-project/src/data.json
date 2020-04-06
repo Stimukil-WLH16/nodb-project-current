@@ -22,33 +22,27 @@
         "title": "Slaughterhouse-Five",
         "author": "Vonnegut, Kurt",
         "bookImg": "https://www.listchallenges.com/f/items/32d622d0-c586-4ab1-8efe-141bb906b661.jpg"
-    },
+    },    
     {
         "id": 4,
-        "title": "The Count of Monte Cristo",
-        "author": "Dumas, Alexandre",
-        "bookImg": "https://www.listchallenges.com/f/items/9d9f0770-0029-43f2-a808-056c534def13.jpg"
-    },
-    {
-        "id": 5,
         "title": "Of Mice and Men",
         "author": "Steinbeck, John",
         "bookImg": "https://www.listchallenges.com/f/items/ee9c878b-7851-479f-8f1c-7b33c7fb53bd.jpg"
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "A Clockwork Orange",
         "author": "Burgess, Anthony",
         "bookImg": "https://www.listchallenges.com/f/items/050ba179-6858-4219-b423-b79535ce213b.jpg"
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Dune",
         "author": "Herbert, Frank",
         "bookImg": "https://www.listchallenges.com/f/items/cf499f35-65c4-4cca-8a18-b3a332000e93.jpg"
     },
     {
-        "id": 8,
+        "id": 7,
         "title": "Perfume",
         "author": "Suskind, Patrick",
         "bookImg": "https://www.listchallenges.com/f/items/d18c4d4b-a12f-4e33-8e20-09ab0e445ae4.jpg"

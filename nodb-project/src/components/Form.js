@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import ListItem from './ListItem'
 
 class Form extends Component{
     constructor(){
@@ -13,6 +14,8 @@ class Form extends Component{
         this.handleChange = this.handleChange.bind(this)
         this.handleAdd = this.handleAdd.bind(this)
     }
+
+    componentDidMount(){}
 
     handleChange(e){
         this.setState({

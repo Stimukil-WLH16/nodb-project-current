@@ -1,24 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {  
+  box-sizing: border-box;
 }
 
-.App {
+.App {  
   padding: 15px;
   text-align: center;
-  min-height: 100vh;
-  max-width: 100vw;
+  height: 100vh;
+  width: 100%;
   background-image: url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIxMTIzfQ&auto=format&fit=crop&w=1350&q=80');
-  background-size: cover;
-    
+  background-size: cover;    
 }
 
 .book-list-title {
-    font-size: 3rem;
-  color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 3rem;
+  color: lightblue;
   background: rgb(0, 0, 0);
-  text-transform: uppercase;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background: radial-gradient(
     circle,
     rgba(0, 0, 0, 1) 0%,
@@ -27,22 +27,18 @@
 }
 
 .List {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
 }
 
 .List-Item {
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: left;
-  align-items: flex-end;
-  width: 25%;
-  color: white;
-  font-size: 2rem;
-  padding: 10px 0;
-  position: relative;
+  height: 100px;
+  width: 75px;
+  margin: 30px;
 }
 
 .delete-button {
@@ -50,6 +46,19 @@
 }
 
 .Form{
-    display: flex;
-    flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  /* margin: 10px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.book-title {
+  margin: 10px;
+  background-color: antiquewhite;
+}
+
+.book-author {
+  margin: 10px;
+  background-color: antiquewhite;
 }

@@ -8,10 +8,11 @@ function ListItem(props){
             <img src={book.bookImg} className="book-cover" alt={book.title} />
 
             <div className='book-info'>
-                <p>{props.book.title}</p>
-                <p>{props.book.author}</p>
-
-                <p onClick={() => props.deleteBook(book.id)}>X</p>
+                <p className='book-title'>{props.book.title}</p>
+                <p className='book-author'>{props.book.author}</p>
+                
+                <button>Edit</button>
+                <button onClick={() => props.deleteBook(book.id)}>Delete</button>
 
             </div>
         </div>

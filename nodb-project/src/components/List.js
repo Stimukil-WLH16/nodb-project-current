@@ -34,14 +34,19 @@ class List extends Component{
         })
     }
 
+    editBook(title, author, bookImg){
+        const index = this.state.books.findIndex(book => book.index === index)
+
+        
+    }
+
     render(){
         const booksMap = this.state.books.map(book => {
             return <ListItem deleteBook={this.deleteBook} key={book.id} book={book}/>
         })
 
         return (
-            <div className='List'>
-                <Form addBook={this.addBook} />
+            <div className='List'>                
                 {booksMap}
             </div>
         )
